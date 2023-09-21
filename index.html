@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="./CSS/index.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3 fw-bold" href="./index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 fw-bold" href="./HTML/page2.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 fw-bold" href="./HTML/page3.html">My Goals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 fw-bold" href="./HTML/page4.html">SP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="secondsection border-top">
+        <section class="mesection">
+            <div class="flip-card float-start">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="mepic" src="./Images/IndexPage/mepic.jpg" alt="first pic of me">
+                    </div>
+                    <div class="flip-card-back">
+                        <img class="mepic" src="./Images/IndexPage/picofme.jpg" alt="second pic of me">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="fw-semibold pt-5">Hello, Welcome to my website</h1>
+    </div>
+    <div class="bootstraptable">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Col 1</th>
+                    <th scope="col">Col 2</th>
+                    <th scope="col">Col 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Name</th>
+                    <td colspan="3">Tine Htet Moe Tha</td>
+                </tr>
+                <tr>
+                    <th scope="row">Class</th>
+                    <td>DCITP</td>
+                    <td>1A</td>
+                    <td>04</td>
+                </tr>
+                <tr>
+                    <th scope="row">Birthdate</th>
+                    <td>05</td>
+                    <td>Nov</td>
+                    <td>2005</td>
+                </tr>
+                <tr>
+                    <th scope="row">Time now&#128511;</th>
+                    <td colspan="3"><span id="hour"></span>:<span id="minute"></span>:<span id="second"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="text-center fw-semibold">@2023 Tine Htet Moe Tha</footer>
+    <script src="./JS/page1.js"></script>
+</body>
+</html>

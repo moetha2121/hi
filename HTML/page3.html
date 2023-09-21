@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="../CSS/page3.css" rel="stylesheet">
+</head>
+<body>
+  <div class="background">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100 top-0">
+      <div class="container-fluid">
+          <a class="navbar-brand fs-3 fw-bold" href="../index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link fs-3 fw-bold" href="../HTML/page2.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link fs-3 fw-bold" href="./page3.html">My Goals</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link fs-3 fw-bold" href="../HTML/page4.html">SP</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+    <div class="container1 border-top">
+      <img class="w-100 img0" src="../Images/Page3/waterimg.jpg" alt="water background">
+      <div class="mygoals-text">
+        <h1 class="fw-semibold m-0 text-decoration-underline ">Goals</h1>
+        <div>
+          <p class="goalspara">As students, we have an important role to play in protecting and preserving the environment. Even small actions can have a significant impact. So, for me, these are my goals...<p class="arrow1">&#x27F1;</p>
+        </div>   
+      </div>
+    </div> <!-- line18-26 1st section of page -->
+    <div id="carouselExampleCaptions" class="carousel slide border-top border-bottom">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active button1" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="button2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="button3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img class="img1 img-fluid d-block w-100" src="../Images/Page3/aircon.png" alt="aircon pic">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="fw-semibold">1. Turning off air-conditioner when not in use</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <img class="img2 img-fluid d-block w-100" src="../Images/Page3/button.png" alt="button pic">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="fw-semibold">2. Turning light off when not in use</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <img class="img3 img-fluid d-block w-100" src="../Images/Page3/bus.jpg" alt="bus pic">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="fw-semibold">3. Taking public transport</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="arrow2">&#8678;</span>
+          <span>Back</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span>Next</span>
+          <span class="arrow3">&#8680;</span>
+        </button>
+    </div> <!--line 28-62 section section(carousel) -->
+    <div class="imgntext">
+      <div>
+        <img class="w-100" src="../Images/Page3/bbt.png" alt="bubbletea pic">
+      </div>
+      <div class="centertext">
+        <p class="text">Continuing, plastic straws are also being substituted by metal straws to help with the environment issues. Some schools have also totally stopped providing straws with their drinks, for example ACS(Independent).</p>
+        <br><h1 class="scrollfurther">Scroll Further!</h1>
+      </div>
+    </div> <!-- line63-71 section3 of page -->
+  </div> <!--background image stops here-->
+  <div class="section4 text-center"> <!--starting of form section-->
+    <h1 class="formtime">Form Time!</h1>
+  </div>
+  <form class="needs-validation" novalidate>
+    <div>
+      <p class="formqns1">1. Are you male or female?</p>
+      <select class="form-select" aria-label="Default select example" required>
+        <option value="">Default Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a gender
+      </div>
+    </div>
+    <div>
+      <p class="formqns2">2. Did you learn anything new?</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+        <label class="form-check-label" for="flexRadioDefault1">
+          Yes
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        <label class="form-check-label" for="flexRadioDefault2">
+          No
+        </label>
+      </div>
+    </div>
+    <div>
+      <p class="formqns3">3. Could you give us your name?</p>        <div class="row no3form">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+          </div>
+          <div class="invalid-feedback">
+            Please provide a valid name
+          </div>
+        </div>
+    </div>
+    <div>
+      <p class="formqns4"> 4. How do we contact you?</p>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">+65</span>
+        <input type="text" class="form-control" placeholder="Valid Number" aria-label="Valid Number" aria-describedby="basic-addon1" required>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </form> <!--end of form-->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successModalLabel">Success!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Form submitted successfully!&#128515;
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div> <!--gives modal after completing form-->
+  <script src="../JS/page3.js"></script>
+</body>
+</html>
+
+

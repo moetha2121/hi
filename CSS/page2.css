@@ -1,0 +1,72 @@
+body{
+    background: url(../Background_Images/background_pic2.jpg); /*background image downloaded from pexels*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textinimg{
+    position: relative;
+}
+.img::before{ /*insert content before the content of an element*/
+    content: "";
+    background: black;
+    position: absolute;
+    width: 96%;
+    margin-left: 2%;
+    height: 100%;
+    opacity: 0.25; /* tint */
+}
+.mefighting{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%; 
+    border:3px solid black;
+    border-top: 0px;
+}
+.centertext /* creating text in center of img  */{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    opacity: 0.8;
+}
+p{
+    color: white;
+    font-size: 25px;
+}  
+.arrow1 {
+    display: inline-block;
+    animation: arrowAnimation 1s infinite;
+}
+@keyframes arrowAnimation { /*animation*/
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(8px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.col1, .col2, .col3{
+    color: white;
+    background-color: rgba(0 , 0, 0, 0.6);
+    width: 100%;
+    border-radius: 22px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.values, .rockclimbing, .valo, .personalityman{
+    width: 440px;
+    width: 100%;
+    margin-top: 10px;
+}
+footer{
+    background-color: #7BD389;
+    color: white;
+    font-size: 15px;
+}
+

@@ -1,0 +1,80 @@
+body{
+    background-image: url(../Background_Images/background_pic1.jpg); /*background image downloaded from pexels*/
+    background-size: cover;
+}
+body, html{
+    overflow-x: hidden;
+}
+#navbar{
+    position: sticky;
+}
+@media (max-width: 391px) {
+    .mesection {
+      margin-top: 20px; /* Add some spacing between flip card and h1 */
+    }
+    h1 {
+      font-size: medium;
+      margin-right: 200px;
+    }
+  }
+.mesection{
+    padding:0px 100% 0px 40px;
+}
+.mepic{
+    height: 350px;
+    width: 255px;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+/* The flip card container - set the width and height*/
+.flip-card {
+    margin-top: 10px;
+    width: 255px;
+    height: 350px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    position: relative;
+    z-index: 1;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    width: 255px;
+    height: 350px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    margin-top: 10px;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 255px;
+    height: 350px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    color: black;
+}
+/* Style the back side */
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+} 
+h1{
+    padding: 0px 30px 0px 320px;
+}
+footer{
+    text-align: center;
+    bottom: 0;
+    background-color: #7BD389;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

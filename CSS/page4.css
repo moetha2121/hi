@@ -1,0 +1,112 @@
+#pouring{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+}
+.row1{
+    background: linear-gradient(#7BD389, #aedcc0);
+}
+.sp{
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.helpful1{
+    background-color: #aedcc0;
+    padding: 10px 0px 10px 0px;
+}
+
+@media (max-width: 810px) {
+    .helpful2::before{
+        animation: none;
+        border: 0;
+    }
+  } 
+
+@media (min-width: 768px){/*the styles inside the @media rule will be applied when the maximum width of the device or viewport is 768 pixels or less*/
+    .grid{ /*first row*/
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .helpful2::before {
+        width: 0;
+        overflow: hidden;
+      }
+}
+.col1, .col2, .col3{
+    width: 90%;
+    margin-left: 5%;
+    padding: 15px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 30px;
+}
+.event, .building, .ccc{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.event:hover, .building:hover, .ccc:hover{
+    transform: scale(1.1); /* increase size by 1.1 times */
+}
+@media (min-width: 768px){/*the styles inside the @media rule will be applied when the maximum width of the device or viewport is 768 pixels or less*/
+    .grid2{ /*second row*/
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.col4, .col5{
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.club, .replacing{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.club:hover, .replacing:hover{
+    transform: scale(1.1); 
+}
+button{
+    all:unset; /* revert all properties back to their default values or inherited values, effectively undoing any previous styling */
+}
+p{
+    font-size: 35px; /* font size of word */
+}
+#events2, #ccc2, #sch2, #club2, #Dispensers2{
+    background-color: rgba(144, 210, 169, 0.9);
+    color: #343e3d;
+    margin: 0px 40px 50px 40px;
+    padding: 50px 30px 20px 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.sticky-button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+.totop{
+    height: 200px; /* height of my button */
+}
+@media (max-width: 391px){/*the styles inside the @media rule will be applied when the maximum width of the device or viewport is 768 pixels or less*/
+    .totop{
+        height: 150px;
+    }
+}
+footer{
+    background-color: #7BD389;
+    color: white;
+    font-size: 15px;
+}
+ 

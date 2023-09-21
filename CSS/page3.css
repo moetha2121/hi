@@ -1,0 +1,523 @@
+.background{
+    background: url(../Background_Images/background_pic3.jpg); /*background image downloaded from pexels*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+body, html{
+  overflow-x: hidden;
+}
+nav.navbar {
+  position: fixed;
+}
+@media (max-width: 412px) { /* for nav bar */
+  .arrow1{
+    font-size: 30px;
+  }
+}
+@media (max-width: 1359px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 35px;
+    }
+    .goalspara {
+      font-size: 35px;
+    }
+  }
+@media (max-width: 1230px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 33px;
+    }
+    .goalspara {
+      font-size: 33px;
+    }
+  }
+@media (max-width: 1140px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 30px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+@media (max-width: 1106px) {
+    .mygoals-text {
+        margin-top: 2%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 30px;
+    }
+    .goalspara {
+      font-size: 30px;
+    }
+  }
+@media (max-width: 962px) {
+    .mygoals-text {
+        margin-top: 3%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 28px;
+    }
+    .goalspara {
+      font-size: 27px;
+    }
+  }
+@media (max-width: 927px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 28px;
+    }
+    .goalspara {
+      font-size: 27px;
+    }
+  }
+@media (max-width: 840px) {
+    .mygoals-text {
+      margin-top: 3%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 28px;
+    }
+    .goalspara {
+      font-size: 28px;
+    }
+  }
+@media (max-width: 828px) {
+    .mygoals-text {
+      margin-top: 5%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 27px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 788px) {
+    .mygoals-text {
+      margin-top: 3.5%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 26px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 755px) {
+    .mygoals-text {
+      margin-top: 4.5%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 26px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 748px) {
+    .mygoals-text {
+      margin-top: 5%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 26px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 733.6px) {
+    .mygoals-text {
+      margin-top: 60px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 26px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 669.6px) {
+    .mygoals-text {
+      margin-top: 70px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 25px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 660.8px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 25px;
+    }
+    .goalspara {
+      font-size: 25px;
+    }
+  }
+@media (max-width: 652px) {
+    .mygoals-text {
+        margin-top: 70px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 26px;
+    }
+    .goalspara {
+      font-size: 26px;
+    }
+  }
+@media (max-width: 618px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 24px;
+    }
+    .goalspara {
+      font-size: 23px;
+    }
+  }
+@media (max-width: 545px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 22px;
+    }
+    .goalspara {
+      font-size: 22px;
+    }
+  }
+@media (max-width: 513px) {
+    .mygoals-text {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1{
+      font-size: 20px;
+    }
+    .goalspara {
+      font-size: 18px;
+    }
+  } 
+.container1{
+    position: relative;
+}
+.container1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+.mygoals-text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.arrow1{
+    font-size: 40px;
+    border-width: 0 2px 2px 0;
+    animation: arrowAnimation 1s infinite;
+}
+@media(max-width: 654px) {
+    .arrow1 {
+        font-size: 30px;
+    }
+    .img0 {
+        height: 390px;
+    }
+}
+@media(max-width: 470px) {
+    .arrow1 {
+        font-size: 18px;
+    }
+    .img0 {
+        height: 295px;
+    }
+}
+@keyframes arrowAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.img1, .img2, .img3{
+    border: 1px solid black;
+    width: auto;
+}
+p{
+    color: white;
+    font-size: 40px;
+}
+span{
+    font-size: 25px;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    transform: scale(1.1);
+}
+.imgntext{
+    position: relative;
+}
+.imgntext:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+  }
+.centertext /*creating text in center of img*/ { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    opacity: 0.7; 
+}
+.text{
+    font-size: 40px;
+}
+.scrollfurther{
+  color: white;
+}
+@keyframes arrowAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+@media (max-width: 1000px) {
+    .text {
+      font-size: 35px;
+    }
+  }
+@media (max-width: 869px) {
+    .text {
+      font-size: 33px;
+    }
+  }
+@media (max-width: 819px) {
+    .mygoals-text{
+      margin-top: 15%;
+    }
+    .text {
+      font-size: 30px;
+    }
+  }
+@media (max-width: 746px) {
+    .text {
+      font-size: 28px;
+    }
+  }
+@media (max-width: 744.5px) {
+    .text {
+      font-size: 24px;
+    }
+  }
+@media (max-width: 626.3px) {
+    .text {
+      font-size: 23px;
+    }
+  }
+@media (max-width: 620px) {
+    .text {
+      font-size: 21px;
+    }
+  }
+@media (max-width: 589.5px) {
+    .text {
+      font-size: 18px;
+    }
+  }
+@media (max-width: 533.5px) {
+    .text {
+      font-size: 16px;
+    }
+  }
+@media (max-width: 478.5px) {
+    .text {
+      font-size: 15px;
+    }
+  }  
+@media (max-width: 454px) {
+    .text {
+        margin-top: 20%;
+        font-size: 16px;
+    }
+    .mygoals-text {
+      margin-top: 10%;
+    }
+  }
+@media (max-width: 419px) {
+    .goalspara {
+      font-size: 15px;
+    }
+    .mygoals-text{
+      margin-top: 22%;
+    }
+    .scrollfurther {
+      display: none;
+    }
+    .imgntext:before{
+      opacity: 0.25;
+    }
+  }
+.arrow2{
+    padding-left: 10px;
+}
+.arrow3{
+    padding-right: 10px;
+}
+@media (max-width: 991.98px) {
+    .carousel-control-prev .arrow2,
+    .carousel-control-next .arrow3 {
+        display: none;
+    }
+}
+@media (max-width: 767.98px) {
+    .carousel-control-prev .arrow2,
+    .carousel-control-next .arrow3 {
+        display: none;
+    }
+}
+@media (max-width: 991.98px) {
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    transform: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    transform: none;
+  }
+}
+.section4 .formtime {
+  font-size: 100px;
+  animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
+  text-shadow: 10px 10px #F0F0F0;
+}
+@keyframes Color {
+    0% {
+      color: #A0D468;
+    }
+    20% {
+      color: #4FC1E9;
+    }
+    40% {
+      color: #FFCE54;
+    }
+    60% {
+      color: #FC6E51;
+    }
+    80% {
+      color: #ED5565;
+    }
+    100% {
+      color: #AC92EC;
+    }
+  }
+.formqns1{
+    color: black;
+    padding-left: 1%;
+}
+.formqns2{
+  color: black;
+  padding-left: 1%;
+}
+.form-check{
+  padding-left: 10%;
+}
+.formqns2{
+  color: black;
+  padding-left: 1%;
+}
+@media(max-width: 390px) {
+  .form-check-label{
+    margin-left: 20px;
+  } 
+}
+.formqns3{
+  color: black;
+  padding-left: 1%;
+}
+.formqns4{
+  color: black;
+  padding-left: 1%;
+}
+.btn{
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
